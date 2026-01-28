@@ -1,0 +1,7 @@
+pandas
+scikit-learn
+joblib
+numpy
+streamlit
+plotly
+urllib.parse
