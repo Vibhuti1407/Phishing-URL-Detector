@@ -18,7 +18,7 @@ st.set_page_config(
     initial_sidebar_state="collapsed"
 )
 
-TRUSTED_DOMAINS = ['google.com', 'microsoft.com', 'github.com', 'apple.com', 'wikipedia.org','login']
+TRUSTED_DOMAINS = ['google.com', 'microsoft.com', 'github.com', 'apple.com', 'wikipedia.org','dribbble.com/login.php']
 
 def is_whitelisted(url_input):
     domain = urlparse(url_input).netloc.lower()
@@ -129,3 +129,4 @@ with right_col:
         else:
 
             st.warning("Please enter a URL.")
+
